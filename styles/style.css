@@ -1,0 +1,40 @@
+@import url('/styles/header.css');
+@import url('/styles/banner.css');
+@import url('/styles/carrossel.css');
+@import url('/styles/card.css');
+@import url('/styles/updates.css');
+@import url('/styles/contato.css');
+@import url('/styles/footer.css');
+
+:root {
+    --bg-color1: rgb(239, 239, 239);
+    --bg-color2: rgb(255, 255, 255);
+    --gradient1: linear-gradient(
+        90deg,
+        rgba(205, 0, 0, 1) 0%,
+        rgba(96, 6, 6, 1) 100%
+    );
+    --font1: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: url('/assets/bg.jpg') no-repeat center center;
+    background-size: cover;
+    filter: blur(5rem);
+}
+
+.page {
+    background-color: var(--bg-color1);
+    font-family: var(--font1);
+    max-width: 800px;
+    margin: 0 auto;
+    border: 0.05rem solid black;
+    position: relative;
+    z-index: 2; /* Ensure .page content is above the blurred background */
+}

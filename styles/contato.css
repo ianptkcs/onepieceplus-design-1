@@ -1,0 +1,56 @@
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--bg-color1);
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contato h2 {
+    width: 100%;
+    padding: 1rem 0;
+    margin-top: 1rem;
+
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: var(--bg-color2);
+    color: tomato;
+
+    border-bottom: 0.05rem solid black;
+    border-top: 0.05rem solid black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contato div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    gap: 1rem;
+}
+
+.contato input {
+    width: 80%;
+    background-color: transparent;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 1.8rem;
+    padding: 1rem 0.8rem;
+}
+
+.contato input::placeholder {
+    color: black;
+    font-family: var(--font1);
+    font-size: 1rem;
+    text-align: center;
+    background-image: url(../assets/contato/icons8-email.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0.5rem 0.1rem;
+}

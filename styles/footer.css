@@ -1,0 +1,32 @@
+footer div {
+    margin: 0;
+    padding: 0.6rem 1rem;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 1.5fr;
+    justify-content: center;
+    text-align: center;
+
+    background-color: var(--bg-color2);
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+footer div {
+    text-align: center;
+    align-items: center;
+}
+
+footer h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+footer p a {
+    grid-row-end: auto;
+    text-decoration: none;
+    color: var(--text-color);
+}

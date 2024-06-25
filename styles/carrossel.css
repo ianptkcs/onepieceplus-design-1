@@ -1,0 +1,39 @@
+.carrossel {
+    font-family: var(--font1);
+}
+
+.carrossel__titulo {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: var(--bg-color2);
+    color: tomato;
+    padding: 1rem 0;
+    border-bottom: 0.05rem solid black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.swiper {
+    padding: 1rem;
+}
+
+.swiper-wrapper {
+    display: flex;
+    gap: 1rem;
+}
+
+.swiper-slide-transform {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background: var(--bg-color2);
+    border: 0.05rem solid black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.swiper-slide-transform img {
+    width: auto;
+    height: 12rem;
+    object-fit: contain;
+}
